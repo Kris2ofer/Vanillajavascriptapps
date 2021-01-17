@@ -20,6 +20,7 @@ function adddaily(event){
         <button>delete</button>
         <button>Checked</button>
         </div>
+        **
         */
 
 
