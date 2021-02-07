@@ -2,6 +2,8 @@ body{
     background:#c7a3a3;
 }
 
+/*Navigation bar*/
+
 .navbar{
     min-height: 33px !important;
     margin-bottom:0;
@@ -69,14 +71,64 @@ height: 33px;
     color: #ef491d;
   }
 
+  /* Custom */
+
   .main-color-bg{
     background-color: #c16831 !important;
     border-color: #9b4915  !important;
-    color: #ffffff;
+    color: #ffffff !important;
+  }
+
+  /* Header */
+  #header{
+      background:#333333;
+      color:#ffffff;
+      padding-bottom: 10px;
+      margin-bottom: 15px;
+  }
+
+  #header .create{
+      padding-top: 20px;
   }
 
 
+  /* Breadcrumb */
+
+  .breadcrumb{
+      background:#cccccc;
+      color:#333333;
+  }
   
+  .breadcrumb a{
+      color:#333333;
+  }
+
+  /* Progress Bars */
+
+  .progress-bar{
+    background:#333333;
+    color:#ffffff;
+  }
+
+  .dash-box{
+    text-align: center;
+  }
+
+  #login{
+    margin-top:30px;
+  }
+
+  /* footer */
+  #footer{
+    background: #333333;
+    color:#ffffff;
+    text-align: center;
+    padding: 30px;
+    margin-top: 30px;
+
+  }
+
+
   @media (max-width: 767px) {
     .navbar-default .navbar-nav .open .dropdown-menu > li > a {
       color: #ecf0f1;
